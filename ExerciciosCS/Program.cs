@@ -26,6 +26,13 @@ namespace ExerciciosCS
                 if (opcao == 4) { EX4.ex4(); }
                 if (opcao == 5) { EX5.ex5(); }
                 if (opcao == 6) { EX6.ex6(); }
+                if (opcao == 7) { EX7.ex7(); }
+                if (opcao == 8) { EX8.ex8(); }
+                if (opcao == 9) { EX9.ex9(); }
+                if (opcao == 10) { EX10.ex10(); }
+                if (opcao == 11) { EX11.ex11(); }
+                if (opcao == 12) { EX12.ex12(); }
+                if (opcao == 13) { EX13.ex13(); }
             }
             
         }

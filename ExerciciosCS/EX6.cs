@@ -18,7 +18,8 @@ namespace ExerciciosCS
             do
             {
                 Console.WriteLine("Insira o nome do Aluno: ");
-                nome = Console.ReadLine();
+                nome = Console.ReadLine(); 
+
                 for(int i = 0; i < 4; i++) 
                 {
                     Console.WriteLine(String.Format("Insira a {0} nota: ", i + 1));

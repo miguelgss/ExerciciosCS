@@ -6,21 +6,24 @@ using System.Threading.Tasks;
 
 namespace ExerciciosCS
 {
-    class EX7
+    class EX12
     {
-        public static void ex7()
+        public static void ex12()
         {
-            int limite, num;
+            int num;
             int maior = 0;
             int menor = 1000000;
-            Console.WriteLine("Quantos numeros deseja digitar?");
-            limite = System.Convert.ToInt32(Console.ReadLine());
-            for (int i = 0; i < limite; i++)
+            while (true)
             {
                 Console.WriteLine("Escreva um numero: ");
                 num = System.Convert.ToInt32(Console.ReadLine());
+
                 if (num > maior) { maior = num; }
-                if (num < menor) { menor = num; }  
+                if (num < menor) { menor = num; }
+
+                Console.WriteLine("Caso queira sair, digite 0: ");
+                num = System.Convert.ToInt32((Console.ReadLine()));
+                if (num == 0) { break; }
             }
             Console.WriteLine("Maior: " + maior);
             Console.WriteLine("Menor: " + menor);

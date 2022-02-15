@@ -8,6 +8,10 @@ namespace ExerciciosCS
 {
     class EX2
     {
+        /// <summary>
+        /// Escreva um programa que leia: A quantidade de números que o usuário deseja informar;
+        /// Leia cada número e informe a média aritmética e a soma deles.
+        /// </summary>
         public static void ex2()
         {
             Console.WriteLine("Digite a quantidade de numeros que deseja inserir: ");
@@ -19,7 +23,7 @@ namespace ExerciciosCS
                 soma += System.Convert.ToInt32(Console.ReadLine());
             }
             Console.WriteLine("Soma: " + soma);
-            Console.WriteLine("Media aritmetica: " + (soma / numQtd));
+            Console.WriteLine("Media aritmetica: " + ((double)soma / numQtd));
         }
     }
 }
